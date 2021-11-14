@@ -1,6 +1,3 @@
-def calculate_salary():
-    print('Рассчитать заработную плату')
-    
-def get_employees():
-    print('Получить сотрудников')
+from application.salary import calculate_salary
 
+from application.db.people import get_employees
